@@ -59,9 +59,9 @@ function initialiserJeu() {
 
 // Calcule le facteur de vitesse en fonction du niveau
 function calculerFacteurVitesse(niveauActuel) {
-  let facteur = 15;
+  let facteur = 4;
   for (let i = 1; i < niveauActuel; i++) {
-    facteur += 2;
+    facteur += 1;
   }
   return facteur;
 }
